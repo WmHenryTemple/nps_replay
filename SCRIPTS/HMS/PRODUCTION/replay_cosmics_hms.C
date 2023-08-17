@@ -16,7 +16,7 @@ void replay_cosmics_hms_nps(Int_t RunNumber=0, Int_t MaxEvent=0) {
 
   // Create file name patterns.
   //  const char* RunFileNamePattern = "hms_tests_%03d.dat.0";  //Raw data file name pattern
-  const char* RunFileNamePattern = "nps_coin_%03d.dat.0";  //Raw data file name pattern
+  const char* RunFileNamePattern = "hms_all_%03d.dat.0";  //Raw data file name pattern
   //    const char* RunFileNamePattern = "hms_all_%05d.dat";  //Raw data file name pattern
   //    const char* RunFileNamePattern = "hms_all_%05d.dat";  //Raw data file name pattern
   const char* ROOTFileNamePattern = "ROOTfiles/HMS/hms50k/hms_replay_production_%d_%d.root";
